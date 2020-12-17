@@ -11,9 +11,10 @@ const PORT = 3000;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "./public")));
 
-require("./api")(app);
-require("./html")(app);
+require("./servers/html")(app);
+require("./servers/api")(app);
 
 // Starts the server to begin listening
 // =============================================================
