@@ -2,6 +2,8 @@
 ![alt_text](./Assets/screen1.png)
 ![alt_text](./Assets/screen2.png)
 
+https://note-journal.herokuapp.com/
+
 https://drive.google.com/file/d/1TpvVEfl80xCaRDoUB8hZPwLNxB4tj-vW/view?usp=sharing
 
 ## About Note Journal
